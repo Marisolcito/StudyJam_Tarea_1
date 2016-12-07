@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marisol.studyjam_tarea1.MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/mibuscador"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mis Documentos"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView"
+                android:textColor="@android:color/black"/>
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/abc"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:src="@drawable/reciente"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOCAL"
+                android:layout_marginTop="15dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DOCUMENT CLOUD"
+                android:layout_marginTop="15dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DROPBOX"
+                android:layout_marginTop="15dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1"
+                >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+   >
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/adb"
+        android:layout_marginTop="2dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduccion.pdf"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="2 de noviembre de 2016 51.0 KB"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/adb"
+                        android:layout_marginTop="2dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bolivia_Esp-1.pdf"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="25 de novembre de 2016 4.0 KB"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/adb"
+                        android:layout_marginTop="2dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="cuestionarios-.pdf"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/textView5"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="21 de octubre de 2016 246.0 KB"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            android:id="@+id/textView4" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                   >
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/adb"
+                        android:layout_marginTop="2dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Figuras.pdf"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/textView3"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="2 de octubre de 2016 24.0 KB"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                   >
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/adb"
+                        android:layout_marginTop="2dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="psicotecnicos.pdf"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="30 de septiembre de 2016 245.0 KB"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/adb"
+                        android:layout_marginTop="2dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PruebPar2012Vale.pdf"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="19 de septiembre de 2016 280.0 KB"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/adb"
+                        android:layout_marginTop="2dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="guia.exa.parv.pdf"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="3 de septiembre de 2016 25.0 KB"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                   >
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/adb"
+                        android:layout_marginTop="2dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Equipaje.pdf"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="24 de agosto de 2016 300.0 KB"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
